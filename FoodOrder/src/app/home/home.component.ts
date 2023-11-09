@@ -24,7 +24,6 @@ export class HomeComponent implements OnInit {
     else if(params['tag'])
     this.foods = this.foodService.getAllFoodByTag(params['tag'])
     else 
-    
     this.foods=this.foodService.getAll();
     })
 
