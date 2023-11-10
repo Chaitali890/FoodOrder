@@ -1,6 +1,6 @@
 import { Foods } from "./food";
 
-export class cartItem{
+export class CartItem{
     
     constructor(food:Foods){
 
@@ -10,6 +10,6 @@ export class cartItem{
     food: Foods;
     quantity:number=1;
     get price(): number{
-        return this.food.price = this.quantity;
+        return this.food.price * this.quantity;
     }
 }

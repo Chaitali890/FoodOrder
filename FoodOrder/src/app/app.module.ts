@@ -9,6 +9,8 @@ import { FormsModule } from '@angular/forms';
 import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/compiler';
 import { SearchComponent } from './search/search.component';
 import { TagComponent } from './tag/tag.component';
+import { CartPageComponent } from './cart-page/cart-page.component';
+import { FoodpageComponent } from './foodpage/foodpage.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { TagComponent } from './tag/tag.component';
     HeaderComponent,
     HomeComponent,
     SearchComponent,
-    TagComponent
+    TagComponent,
+    CartPageComponent,
+    FoodpageComponent
   ],
   imports: [
     BrowserModule,
